@@ -1,0 +1,32 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #0C2340;
+}
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.hero {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+.btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 1rem 2rem;
+  background-color: #E14B84;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  padding: 2rem;
+  background: #F5F5F5;
+}
