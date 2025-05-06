@@ -1,32 +1,52 @@
-body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #fff;
-  color: #0C2340;
-}
-header {
-  text-align: center;
-  padding: 2rem 1rem;
-}
-.hero {
-  text-align: center;
-  padding: 3rem 2rem;
-}
-.btn {
-  display: inline-block;
-  margin-top: 1.5rem;
-  padding: 1rem 2rem;
-  background-color: #E14B84;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
-  font-size: 1rem;
-}
-footer {
-  text-align: center;
-  margin-top: 4rem;
-  padding: 2rem;
-  background: #F5F5F5;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OSO Consulting</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Smarter Growth Starts Here.</h1>
+    <p>AI-Powered Marketing & Sales Enablement — Built for Clinics, Creatives & Change-Makers.</p>
+    <a href="#contact" class="cta-button">Let’s Build Your AI Agent →</a>
+  </section>
+
+  <!-- Core Offerings -->
+  <section class="offerings">
+    <div class="offering">
+      <h2>Sector-Specific Precision</h2>
+      <p>Built for your industry, not the masses.</p>
+    </div>
+    <div class="offering">
+      <h2>AI-First Execution</h2>
+      <p>Automate outreach, replies, and booking.</p>
+    </div>
+    <div class="offering">
+      <h2>Honest Influence</h2>
+      <p>Persuade with trust, not tricks.</p>
+    </div>
+    <div class="offering">
+      <h2>Lean + Clean</h2>
+      <p>Fast, focused systems that scale.</p>
+    </div>
+  </section>
+
+  <!-- Case Studies -->
+  <section class="case-studies">
+    <h2>Want Results Like This?</h2>
+    <blockquote>
+      <p>"Patient sign-ups increased 70% in 90 days using a single AI agent."</p>
+    </blockquote>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Ready to OSOfy Your Growth?</h2>
+    <p>Start Your Free AI Strategy Session</p>
+    <!-- Insert contact form or contact details here -->
+  </section>
+</body>
+</html>
